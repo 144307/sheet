@@ -1,0 +1,32 @@
+.quote {
+  min-height: 200px;
+  /* width: 80%; */
+  margin: 40px auto 0;
+  /* display: grid; */
+  /* grid-template-columns: 30px auto 30px; */
+  /* gap: 20px; */
+  /* background-color: #f4f4f4; */
+  /* background-color: #eeeedd; */
+  background-color: #D9D9D9;
+  /* border-top: 2px dashed darkgrey; */
+  /* border-bottom: 2px dashed darkgrey; */
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.quote__content {
+  height: 100%;
+  /* width: calc(100% - 40px); */
+  padding: 20px;
+  /* margin-left: 5px; */
+  /* margin-right: 5px; */
+  /* padding: 15px 30px; */
+  /* outline: 1px solid red; */
+  /* border-top: 0px solid red; */
+  /* border-top: 1px; */
+  /* border-bottom: ; */
+  /* border-right: 20px dotted silver; */
+  /* border-left: 20px dotted silver; */
+  /* box-sizing: border-box; */
+}
+
+.quote__title {}

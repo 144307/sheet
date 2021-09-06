@@ -1,0 +1,53 @@
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  /* display: flex; */
+  display: none;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  /* display: none; */
+}
+
+.overlay_opened {
+  display: flex;
+}
+
+.overlay__popup {
+  width: 600px;
+  min-height: 300px;
+  color: #000;
+  background-color: #fff;
+  /* border-radius: 10px; */
+  opacity: 1;
+  z-index: 2;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.overlay__popup-header {
+  height: 40px;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  background-size: 40px;
+  background-image: url(../../images/background_2.svg);
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.overlay__popup-content {}
+
+/* @media screen and (max-width: 767px) {
+  .overlay_popup {
+    width: 282px;
+  }
+} */
